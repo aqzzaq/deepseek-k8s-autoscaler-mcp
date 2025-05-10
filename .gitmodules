@@ -1,0 +1,6 @@
+[submodule "infra-demo"]
+	path = infra-demo
+	url = https://github.com/aqzzaq/infra-demo.git
+[submodule "kubespray"]
+	path = kubespray
+	url = https://github.com/kubernetes-sigs/kubespray.git
