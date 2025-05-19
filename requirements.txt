@@ -1,0 +1,13 @@
+boto3
+google-auth
+google-cloud-billing
+python-terraform
+ansible-runner
+requests
+fastmcp
+langchain-community
+kubernetes
+langchain-deepseek
+mcp
+langchain_mcp_adapters
+langgraph
