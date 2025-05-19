@@ -1,4 +1,4 @@
-#Deepseek-K8S-Autoscaler-MCP
+# Deepseek-K8S-Autoscaler-MCP
 
 ## Intro
 This repo allows one to scale up or scale down a K8S cluster managed by [KubeSpray](https://github.com/kubernetes-sigs/kubespray) and Terraform. 
