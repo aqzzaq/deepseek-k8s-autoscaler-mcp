@@ -63,7 +63,6 @@ def k8s_label_node(node_name, label_key, label_value):
 
 # DEFINE TOOLS
 
-#addition tool
 @mcp.tool()
 def terraform_create_google_instance():
     """
