@@ -100,7 +100,7 @@ def terraform_create_azure_instance():
 @mcp.tool()
 def kubespray_add_worker_instance_to_cluster(instance_ip, cloud_provider):
     """
-    Add a worker instance to kubernetes cluster. Should be executed only after worker node is created from cloud providers。 
+    Add a worker instance to kubernetes cluster. Should be executed only after worker node is created from cloud providers. 
     """
     with open(HOST_FILE) as f:
         hosts = yaml.safe_load(f)
