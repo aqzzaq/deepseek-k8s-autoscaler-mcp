@@ -14,3 +14,5 @@ Execute the client using command `python autoscaler-client.py`. The specific beh
 Default behavior of the current query will first check the prometheus endpoint in **worker-promq.py** for the worker nodes cpu usage and decides whether to scale up or down the K8S cluster.
 If the Deepseek LLM decides to scale up the cluster, current query will first check for the lowest-priced on-Demand instance using **getPrice.py** and then scale the cluster with the node from the cheapest provider.
 
+## Demo
+A video demo of the repo at work is accessible [here](https://www.youtube.com/watch?v=QeIYiR7CQZo).
